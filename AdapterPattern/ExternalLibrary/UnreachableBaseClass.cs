@@ -5,7 +5,7 @@
 	 * */
 	public abstract class UnchangeableBaseClass
 	{
-		public void PerformOperation(string message)
+		public void PerformOperation(string generalOperationName)
 		{
 			//Magic stuff happens
 		}
