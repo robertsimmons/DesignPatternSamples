@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using AdapterPattern.ExternalLibrary;
+﻿using AdapterPattern.ExternalLibrary;
 
 namespace AdapterPattern.YourSoftware
 {
@@ -15,9 +11,9 @@ namespace AdapterPattern.YourSoftware
 			_baseClass = baseClass;
 		}
 
-		public void PerformOperation(string message)
+		public void PerformOperation(Operations operation)
 		{
-			_baseClass.PerformOperation(message);
+			_baseClass.PerformOperation(operation.ToString());
 		}
 	}
 }

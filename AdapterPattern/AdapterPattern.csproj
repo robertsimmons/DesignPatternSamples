@@ -56,6 +56,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\YourClassTests.cs" />
     <Compile Include="YourSoftware\IPerformOperation.cs" />
+    <Compile Include="YourSoftware\Operations.cs" />
     <Compile Include="YourSoftware\UnchangeableAdapter.cs" />
     <Compile Include="YourSoftware\YourClass.cs" />
   </ItemGroup>

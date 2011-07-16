@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using AdapterPattern.ExternalLibrary;
+﻿using AdapterPattern.ExternalLibrary;
 
 namespace AdapterPattern.YourSoftware
 {
@@ -22,7 +18,7 @@ namespace AdapterPattern.YourSoftware
 
 		public override void RunMe()
 		{
-			_operationPerformer.PerformOperation("howdy");
+			_operationPerformer.PerformOperation(Operations.KeepingItReal);
 		}
 	}
 }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using AdapterPattern.YourSoftware;
+﻿using AdapterPattern.YourSoftware;
 using Moq;
 using NUnit.Framework;
 
@@ -20,7 +16,7 @@ namespace AdapterPattern.Tests
 
 			sut.RunMe();
 
-			operationPerformerMock.Verify(o => o.PerformOperation(It.IsAny<string>()));
+			operationPerformerMock.Verify(o => o.PerformOperation(It.IsAny<Operations>()));
 		}
 	}
 }
